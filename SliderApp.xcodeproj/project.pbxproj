@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA24A2FF27E33A48008AE8AF /* ChangeColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24A2FE27E33A48008AE8AF /* ChangeColorViewController.swift */; };
 		FAE6D23A27DC8F3C00F1E7EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D23927DC8F3C00F1E7EC /* AppDelegate.swift */; };
 		FAE6D23C27DC8F3C00F1E7EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D23B27DC8F3C00F1E7EC /* SceneDelegate.swift */; };
 		FAE6D23E27DC8F3C00F1E7EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6D23D27DC8F3C00F1E7EC /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA24A2FE27E33A48008AE8AF /* ChangeColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorViewController.swift; sourceTree = "<group>"; };
 		FAE6D23627DC8F3C00F1E7EC /* SliderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE6D23927DC8F3C00F1E7EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE6D23B27DC8F3C00F1E7EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA24A30027E35317008AE8AF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA24A2FE27E33A48008AE8AF /* ChangeColorViewController.swift */,
+				FAE6D23D27DC8F3C00F1E7EC /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FA24A30127E3533F008AE8AF /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D24427DC8F3D00F1E7EC /* LaunchScreen.storyboard */,
+				FAE6D23F27DC8F3C00F1E7EC /* Main.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		FA24A30227E35356008AE8AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D24227DC8F3D00F1E7EC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA24A30327E3536D008AE8AF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6D23927DC8F3C00F1E7EC /* AppDelegate.swift */,
+				FAE6D23B27DC8F3C00F1E7EC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		FAE6D22D27DC8F3C00F1E7EC = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +93,10 @@
 		FAE6D23827DC8F3C00F1E7EC /* SliderApp */ = {
 			isa = PBXGroup;
 			children = (
-				FAE6D23927DC8F3C00F1E7EC /* AppDelegate.swift */,
-				FAE6D23B27DC8F3C00F1E7EC /* SceneDelegate.swift */,
-				FAE6D23D27DC8F3C00F1E7EC /* ViewController.swift */,
-				FAE6D23F27DC8F3C00F1E7EC /* Main.storyboard */,
-				FAE6D24227DC8F3D00F1E7EC /* Assets.xcassets */,
-				FAE6D24427DC8F3D00F1E7EC /* LaunchScreen.storyboard */,
+				FA24A30027E35317008AE8AF /* ViewController */,
+				FA24A30127E3533F008AE8AF /* LaunchScreen */,
+				FA24A30227E35356008AE8AF /* Resources */,
+				FA24A30327E3536D008AE8AF /* App */,
 				FAE6D24727DC8F3D00F1E7EC /* Info.plist */,
 			);
 			path = SliderApp;
@@ -140,6 +175,7 @@
 			files = (
 				FAE6D23E27DC8F3C00F1E7EC /* ViewController.swift in Sources */,
 				FAE6D23A27DC8F3C00F1E7EC /* AppDelegate.swift in Sources */,
+				FA24A2FF27E33A48008AE8AF /* ChangeColorViewController.swift in Sources */,
 				FAE6D23C27DC8F3C00F1E7EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
